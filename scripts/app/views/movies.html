@@ -1,0 +1,11 @@
+<div ng-repeat="movie in movies | limitTo:5" class="movieContainer">
+    <div class="moviePoster">
+        <img src="http://image.tmdb.org/t/p/w185{{movie.poster_path}}">
+        <button ng-click="rentMovie()">Rent Movie</button>
+    </div>
+    <!--
+    <h1>{{movie.title}}</h1>
+    <h1>{{movie.rating}}</h1>
+    <h1>{{movie.description}}</h1>
+    -->
+</div>

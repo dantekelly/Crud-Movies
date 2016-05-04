@@ -1,0 +1,13 @@
+.input-group span {
+  background-color: #FFF; }
+
+.input-group input {
+  border-right-style: none; }
+
+.movieContainer {
+  display: inline-block; }
+  .movieContainer button {
+    display: block;
+    width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
